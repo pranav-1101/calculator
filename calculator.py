@@ -13,5 +13,13 @@ def divide(a, b):
 
 # Sample usage
 if __name__ == "__main__":
-    print("Addition:", add(2, 3))
-    print("Subtraction:", subtract(5, 2))
+    # print("Addition:", add(2, 3))
+    # print("Subtraction:", subtract(5, 2))
+    # print("Addition:", add(6, 7))
+
+    a = int(input('1st number :'))
+    b = int(input('2st number :'))
+    print("Addition:", add(a, b))
+    print("Subtraction:", subtract(a, b))
+    print("multiply:", multiply(a, b))
+    print("divide:", divide(a, b))
